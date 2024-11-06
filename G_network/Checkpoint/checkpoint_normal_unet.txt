@@ -1,0 +1,848 @@
+[epoch: 1]
+D_loss: 1.282446
+G_loss: 88.263870
+loss_pixel: 0.8699
+lr: 0.0000002
+trained_times:295.6020s
+now_bestlosspixel:1.0000
+
+[epoch: 2]
+D_loss: 0.776980
+G_loss: 83.162239
+loss_pixel: 0.8218
+lr: 0.0000012
+trained_times:435.5413s
+now_bestlosspixel:0.8699
+
+[epoch: 3]
+D_loss: 0.478705
+G_loss: 77.510239
+loss_pixel: 0.7659
+lr: 0.0000022
+trained_times:452.4678s
+now_bestlosspixel:0.8218
+
+[epoch: 4]
+D_loss: 0.315494
+G_loss: 73.204453
+loss_pixel: 0.7230
+lr: 0.0000032
+trained_times:459.4255s
+now_bestlosspixel:0.7659
+
+[epoch: 5]
+D_loss: 0.187114
+G_loss: 69.939247
+loss_pixel: 0.6884
+lr: 0.0000042
+trained_times:449.8678s
+now_bestlosspixel:0.7230
+
+[epoch: 6]
+D_loss: 0.131475
+G_loss: 67.296707
+loss_pixel: 0.6621
+lr: 0.0000052
+trained_times:458.8380s
+now_bestlosspixel:0.6884
+
+[epoch: 7]
+D_loss: 0.107691
+G_loss: 63.276451
+loss_pixel: 0.6228
+lr: 0.0000062
+trained_times:462.6093s
+now_bestlosspixel:0.6621
+
+[epoch: 8]
+D_loss: 0.087813
+G_loss: 58.967457
+loss_pixel: 0.5804
+lr: 0.0000072
+trained_times:456.1779s
+now_bestlosspixel:0.6228
+
+[epoch: 9]
+D_loss: 0.055771
+G_loss: 55.920086
+loss_pixel: 0.5485
+lr: 0.0000082
+trained_times:456.1995s
+now_bestlosspixel:0.5804
+
+[epoch: 10]
+D_loss: 0.059068
+G_loss: 52.452137
+loss_pixel: 0.5145
+lr: 0.0000092
+trained_times:448.0933s
+now_bestlosspixel:0.5485
+
+[epoch: 11]
+D_loss: 0.038623
+G_loss: 48.601952
+loss_pixel: 0.4739
+lr: 0.0000102
+trained_times:447.6935s
+now_bestlosspixel:0.5145
+
+[epoch: 12]
+D_loss: 0.055864
+G_loss: 43.461506
+loss_pixel: 0.4270
+lr: 0.0000112
+trained_times:446.3765s
+now_bestlosspixel:0.4739
+
+[epoch: 13]
+D_loss: 0.028510
+G_loss: 40.433392
+loss_pixel: 0.3924
+lr: 0.0000122
+trained_times:452.1989s
+now_bestlosspixel:0.4270
+
+[epoch: 14]
+D_loss: 0.023201
+G_loss: 35.243671
+loss_pixel: 0.3430
+lr: 0.0000132
+trained_times:453.0787s
+now_bestlosspixel:0.3924
+
+[epoch: 15]
+D_loss: 0.048104
+G_loss: 30.545235
+loss_pixel: 0.2991
+lr: 0.0000142
+trained_times:447.1952s
+now_bestlosspixel:0.3430
+
+[epoch: 16]
+D_loss: 0.020656
+G_loss: 27.216965
+loss_pixel: 0.2617
+lr: 0.0000152
+trained_times:448.9341s
+now_bestlosspixel:0.2991
+
+[epoch: 17]
+D_loss: 0.026205
+G_loss: 22.996380
+loss_pixel: 0.2184
+lr: 0.0000162
+trained_times:459.8415s
+now_bestlosspixel:0.2617
+
+[epoch: 18]
+D_loss: 0.018827
+G_loss: 19.109217
+loss_pixel: 0.1813
+lr: 0.0000172
+trained_times:446.6654s
+now_bestlosspixel:0.2184
+
+[epoch: 19]
+D_loss: 0.031402
+G_loss: 14.158613
+loss_pixel: 0.1337
+lr: 0.0000182
+trained_times:455.6436s
+now_bestlosspixel:0.1813
+
+[epoch: 20]
+D_loss: 0.069961
+G_loss: 10.014987
+loss_pixel: 0.0952
+lr: 0.0000192
+trained_times:443.1446s
+now_bestlosspixel:0.1337
+
+[epoch: 21]
+D_loss: 0.098267
+G_loss: 7.631939
+loss_pixel: 0.0682
+lr: 0.0000202
+trained_times:454.2265s
+now_bestlosspixel:0.0952
+
+[epoch: 22]
+D_loss: 0.067012
+G_loss: 6.404168
+loss_pixel: 0.0591
+lr: 0.0000212
+trained_times:453.8867s
+now_bestlosspixel:0.0682
+
+[epoch: 23]
+D_loss: 0.219252
+G_loss: 4.818769
+loss_pixel: 0.0466
+lr: 0.0000222
+trained_times:457.3941s
+now_bestlosspixel:0.0591
+
+[epoch: 24]
+D_loss: 0.149941
+G_loss: 3.868065
+loss_pixel: 0.0355
+lr: 0.0000232
+trained_times:462.7469s
+now_bestlosspixel:0.0466
+
+[epoch: 25]
+D_loss: 0.213051
+G_loss: 4.048206
+loss_pixel: 0.0332
+lr: 0.0000242
+trained_times:457.9399s
+now_bestlosspixel:0.0355
+
+[epoch: 26]
+D_loss: 0.157684
+G_loss: 4.019081
+loss_pixel: 0.0348
+lr: 0.0000252
+trained_times:460.0576s
+now_bestlosspixel:0.0332
+
+[epoch: 27]
+D_loss: 0.131688
+G_loss: 5.577847
+loss_pixel: 0.0526
+lr: 0.0000262
+trained_times:460.5312s
+now_bestlosspixel:0.0332
+
+[epoch: 28]
+D_loss: 0.162549
+G_loss: 3.951392
+loss_pixel: 0.0362
+lr: 0.0000272
+trained_times:462.6317s
+now_bestlosspixel:0.0332
+
+[epoch: 29]
+D_loss: 0.149081
+G_loss: 3.929282
+loss_pixel: 0.0358
+lr: 0.0000282
+trained_times:469.4008s
+now_bestlosspixel:0.0332
+
+[epoch: 30]
+D_loss: 0.287827
+G_loss: 4.018653
+loss_pixel: 0.0359
+lr: 0.0000292
+trained_times:465.0130s
+now_bestlosspixel:0.0332
+
+[epoch: 31]
+D_loss: 0.171543
+G_loss: 4.176623
+loss_pixel: 0.0384
+lr: 0.0000302
+trained_times:465.8132s
+now_bestlosspixel:0.0332
+
+[epoch: 32]
+D_loss: 0.256813
+G_loss: 3.473800
+loss_pixel: 0.0321
+lr: 0.0000312
+trained_times:474.2745s
+now_bestlosspixel:0.0332
+
+[epoch: 33]
+D_loss: 0.170046
+G_loss: 4.543638
+loss_pixel: 0.0382
+lr: 0.0000322
+trained_times:479.5338s
+now_bestlosspixel:0.0321
+
+[epoch: 34]
+D_loss: 0.260395
+G_loss: 3.997472
+loss_pixel: 0.0340
+lr: 0.0000332
+trained_times:467.2180s
+now_bestlosspixel:0.0321
+
+[epoch: 35]
+D_loss: 0.204890
+G_loss: 3.313524
+loss_pixel: 0.0278
+lr: 0.0000342
+trained_times:463.3303s
+now_bestlosspixel:0.0321
+
+[epoch: 36]
+D_loss: 0.161783
+G_loss: 4.477844
+loss_pixel: 0.0395
+lr: 0.0000352
+trained_times:467.0918s
+now_bestlosspixel:0.0278
+
+[epoch: 37]
+D_loss: 0.080868
+G_loss: 4.656995
+loss_pixel: 0.0423
+lr: 0.0000362
+trained_times:476.9507s
+now_bestlosspixel:0.0278
+
+[epoch: 38]
+D_loss: 0.222477
+G_loss: 3.871794
+loss_pixel: 0.0359
+lr: 0.0000372
+trained_times:462.8283s
+now_bestlosspixel:0.0278
+
+[epoch: 39]
+D_loss: 0.217475
+G_loss: 3.895020
+loss_pixel: 0.0350
+lr: 0.0000382
+trained_times:465.3345s
+now_bestlosspixel:0.0278
+
+[epoch: 40]
+D_loss: 0.155641
+G_loss: 4.045261
+loss_pixel: 0.0371
+lr: 0.0000392
+trained_times:468.5943s
+now_bestlosspixel:0.0278
+
+[epoch: 41]
+D_loss: 0.244312
+G_loss: 3.777391
+loss_pixel: 0.0355
+lr: 0.0000402
+trained_times:478.0403s
+now_bestlosspixel:0.0278
+
+[epoch: 42]
+D_loss: 0.205985
+G_loss: 3.953610
+loss_pixel: 0.0378
+lr: 0.0000412
+trained_times:467.8379s
+now_bestlosspixel:0.0278
+
+[epoch: 43]
+D_loss: 0.181412
+G_loss: 3.913097
+loss_pixel: 0.0368
+lr: 0.0000422
+trained_times:476.4189s
+now_bestlosspixel:0.0278
+
+[epoch: 44]
+D_loss: 0.163632
+G_loss: 3.466569
+loss_pixel: 0.0310
+lr: 0.0000432
+trained_times:477.1049s
+now_bestlosspixel:0.0278
+
+[epoch: 45]
+D_loss: 0.200376
+G_loss: 4.216326
+loss_pixel: 0.0378
+lr: 0.0000442
+trained_times:468.3407s
+now_bestlosspixel:0.0278
+
+[epoch: 46]
+D_loss: 0.113630
+G_loss: 4.202238
+loss_pixel: 0.0385
+lr: 0.0000452
+trained_times:470.5536s
+now_bestlosspixel:0.0278
+
+[epoch: 47]
+D_loss: 0.228816
+G_loss: 4.012432
+loss_pixel: 0.0366
+lr: 0.0000462
+trained_times:468.0934s
+now_bestlosspixel:0.0278
+
+[epoch: 48]
+D_loss: 0.371434
+G_loss: 3.653526
+loss_pixel: 0.0299
+lr: 0.0000472
+trained_times:465.0835s
+now_bestlosspixel:0.0278
+
+[epoch: 49]
+D_loss: 0.285461
+G_loss: 3.663008
+loss_pixel: 0.0343
+lr: 0.0000482
+trained_times:469.7962s
+now_bestlosspixel:0.0278
+
+[epoch: 50]
+D_loss: 0.167698
+G_loss: 4.038719
+loss_pixel: 0.0375
+lr: 0.0000492
+trained_times:469.6690s
+now_bestlosspixel:0.0278
+
+[epoch: 51]
+D_loss: 0.188618
+G_loss: 3.822125
+loss_pixel: 0.0335
+lr: 0.0000501
+trained_times:465.1977s
+now_bestlosspixel:0.0278
+
+[epoch: 52]
+D_loss: 0.192593
+G_loss: 3.878035
+loss_pixel: 0.0349
+lr: 0.0000511
+trained_times:464.7832s
+now_bestlosspixel:0.0278
+
+[epoch: 53]
+D_loss: 0.182199
+G_loss: 3.656604
+loss_pixel: 0.0346
+lr: 0.0000521
+trained_times:460.3528s
+now_bestlosspixel:0.0278
+
+[epoch: 54]
+D_loss: 0.165907
+G_loss: 3.922354
+loss_pixel: 0.0341
+lr: 0.0000531
+trained_times:474.7872s
+now_bestlosspixel:0.0278
+
+[epoch: 55]
+D_loss: 0.291172
+G_loss: 3.221659
+loss_pixel: 0.0305
+lr: 0.0000541
+trained_times:469.3883s
+now_bestlosspixel:0.0278
+
+[epoch: 56]
+D_loss: 0.231998
+G_loss: 4.136621
+loss_pixel: 0.0379
+lr: 0.0000551
+trained_times:462.7552s
+now_bestlosspixel:0.0278
+
+[epoch: 57]
+D_loss: 0.340070
+G_loss: 3.668130
+loss_pixel: 0.0296
+lr: 0.0000561
+trained_times:461.2861s
+now_bestlosspixel:0.0278
+
+[epoch: 58]
+D_loss: 0.094664
+G_loss: 4.757183
+loss_pixel: 0.0440
+lr: 0.0000571
+trained_times:471.7344s
+now_bestlosspixel:0.0278
+
+[epoch: 59]
+D_loss: 0.184196
+G_loss: 3.586986
+loss_pixel: 0.0323
+lr: 0.0000581
+trained_times:466.2951s
+now_bestlosspixel:0.0278
+
+[epoch: 60]
+D_loss: 0.262948
+G_loss: 5.080465
+loss_pixel: 0.0462
+lr: 0.0000591
+trained_times:471.5970s
+now_bestlosspixel:0.0278
+
+[epoch: 61]
+D_loss: 0.217534
+G_loss: 4.000588
+loss_pixel: 0.0356
+lr: 0.0000601
+trained_times:467.9925s
+now_bestlosspixel:0.0278
+
+[epoch: 62]
+D_loss: 0.278953
+G_loss: 3.302377
+loss_pixel: 0.0306
+lr: 0.0000611
+trained_times:493.0404s
+now_bestlosspixel:0.0278
+
+[epoch: 63]
+D_loss: 0.239641
+G_loss: 3.571909
+loss_pixel: 0.0328
+lr: 0.0000621
+trained_times:484.3867s
+now_bestlosspixel:0.0278
+
+[epoch: 64]
+D_loss: 0.225143
+G_loss: 3.742065
+loss_pixel: 0.0351
+lr: 0.0000631
+trained_times:495.9914s
+now_bestlosspixel:0.0278
+
+[epoch: 65]
+D_loss: 0.153228
+G_loss: 3.812056
+loss_pixel: 0.0344
+lr: 0.0000641
+trained_times:501.0569s
+now_bestlosspixel:0.0278
+
+[epoch: 66]
+D_loss: 0.222970
+G_loss: 3.674306
+loss_pixel: 0.0354
+lr: 0.0000651
+trained_times:506.0307s
+now_bestlosspixel:0.0278
+
+[epoch: 67]
+D_loss: 0.232863
+G_loss: 3.288217
+loss_pixel: 0.0295
+lr: 0.0000661
+trained_times:505.6075s
+now_bestlosspixel:0.0278
+
+[epoch: 68]
+D_loss: 0.209578
+G_loss: 3.786775
+loss_pixel: 0.0348
+lr: 0.0000671
+trained_times:519.8187s
+now_bestlosspixel:0.0278
+
+[epoch: 69]
+D_loss: 0.187878
+G_loss: 3.249889
+loss_pixel: 0.0293
+lr: 0.0000681
+trained_times:531.2516s
+now_bestlosspixel:0.0278
+
+[epoch: 70]
+D_loss: 0.092524
+G_loss: 4.259905
+loss_pixel: 0.0387
+lr: 0.0000691
+trained_times:524.1242s
+now_bestlosspixel:0.0278
+
+[epoch: 71]
+D_loss: 0.243269
+G_loss: 3.762542
+loss_pixel: 0.0341
+lr: 0.0000701
+trained_times:540.2167s
+now_bestlosspixel:0.0278
+
+[epoch: 71]
+D_loss: 0.256270
+G_loss: 3.335912
+loss_pixel: 0.0304
+lr: 0.0000002
+trained_times:362.6538s
+now_bestlosspixel:1.0000
+
+[epoch: 72]
+D_loss: 0.165349
+G_loss: 3.632770
+loss_pixel: 0.0319
+lr: 0.0000012
+trained_times:508.6014s
+now_bestlosspixel:0.0304
+
+[epoch: 73]
+D_loss: 0.176203
+G_loss: 3.240091
+loss_pixel: 0.0292
+lr: 0.0000022
+trained_times:514.6538s
+now_bestlosspixel:0.0304
+
+[epoch: 74]
+D_loss: 0.246837
+G_loss: 3.099631
+loss_pixel: 0.0281
+lr: 0.0000032
+trained_times:527.0609s
+now_bestlosspixel:0.0292
+
+[epoch: 75]
+D_loss: 0.211400
+G_loss: 3.281301
+loss_pixel: 0.0292
+lr: 0.0000042
+trained_times:534.2372s
+now_bestlosspixel:0.0281
+
+[epoch: 76]
+D_loss: 0.239472
+G_loss: 3.281215
+loss_pixel: 0.0299
+lr: 0.0000052
+trained_times:532.1059s
+now_bestlosspixel:0.0281
+
+[epoch: 77]
+D_loss: 0.145784
+G_loss: 3.834179
+loss_pixel: 0.0340
+lr: 0.0000062
+trained_times:505.0564s
+now_bestlosspixel:0.0281
+
+[epoch: 78]
+D_loss: 0.146789
+G_loss: 3.826041
+loss_pixel: 0.0355
+lr: 0.0000072
+trained_times:520.8523s
+now_bestlosspixel:0.0281
+
+[epoch: 79]
+D_loss: 0.160554
+G_loss: 3.925066
+loss_pixel: 0.0353
+lr: 0.0000082
+trained_times:517.9277s
+now_bestlosspixel:0.0281
+
+[epoch: 80]
+D_loss: 0.288857
+G_loss: 3.044363
+loss_pixel: 0.0282
+lr: 0.0000092
+trained_times:520.3819s
+now_bestlosspixel:0.0281
+
+epoch: 1  D_loss: 0.123843  G_loss: 31.671448  loss_pixel: 0.3108  best_loss_pixel: 0.3153  
+epoch: 2  D_loss: 0.287765  G_loss: 7.935752  loss_pixel: 0.0716  best_loss_pixel: 0.0720  
+epoch: 3  D_loss: 0.243439  G_loss: 3.638955  loss_pixel: 0.0334  best_loss_pixel: 0.0338  
+epoch: 4  D_loss: 0.333751  G_loss: 3.893347  loss_pixel: 0.0368  best_loss_pixel: 0.0338  
+epoch: 5  D_loss: 0.274727  G_loss: 3.438561  loss_pixel: 0.0314  best_loss_pixel: 0.0338  
+epoch: 6  D_loss: 0.337845  G_loss: 3.857195  loss_pixel: 0.0352  best_loss_pixel: 0.0335  
+epoch: 7  D_loss: 0.271248  G_loss: 4.053533  loss_pixel: 0.0361  best_loss_pixel: 0.0322  
+epoch: 8  D_loss: 0.205586  G_loss: 3.478261  loss_pixel: 0.0298  best_loss_pixel: 0.0322  
+epoch: 9  D_loss: 0.207175  G_loss: 3.436619  loss_pixel: 0.0305  best_loss_pixel: 0.0312  
+epoch: 10  D_loss: 0.336540  G_loss: 3.624458  loss_pixel: 0.0335  best_loss_pixel: 0.0312  
+epoch: 11  D_loss: 0.307631  G_loss: 4.326408  loss_pixel: 0.0424  best_loss_pixel: 0.0312  
+epoch: 12  D_loss: 0.145247  G_loss: 4.196475  loss_pixel: 0.0383  best_loss_pixel: 0.0312  
+epoch: 13  D_loss: 0.172496  G_loss: 3.807366  loss_pixel: 0.0352  best_loss_pixel: 0.0312  
+epoch: 14  D_loss: 0.142188  G_loss: 4.269421  loss_pixel: 0.0382  best_loss_pixel: 0.0312  
+epoch: 15  D_loss: 0.238704  G_loss: 3.833125  loss_pixel: 0.0348  best_loss_pixel: 0.0312  
+epoch: 16  D_loss: 0.194198  G_loss: 3.937865  loss_pixel: 0.0368  best_loss_pixel: 0.0312  
+epoch: 17  D_loss: 0.302461  G_loss: 3.951896  loss_pixel: 0.0331  best_loss_pixel: 0.0312  
+epoch: 18  D_loss: 0.169763  G_loss: 3.897051  loss_pixel: 0.0359  best_loss_pixel: 0.0312  
+epoch: 19  D_loss: 0.176632  G_loss: 4.133054  loss_pixel: 0.0357  best_loss_pixel: 0.0312  
+epoch: 20  D_loss: 0.249450  G_loss: 3.917312  loss_pixel: 0.0367  best_loss_pixel: 0.0312  
+epoch: 21  D_loss: 0.236208  G_loss: 3.639891  loss_pixel: 0.0324  best_loss_pixel: 0.0312  
+epoch: 22  D_loss: 0.143885  G_loss: 4.183267  loss_pixel: 0.0389  best_loss_pixel: 0.0312  
+epoch: 23  D_loss: 0.174583  G_loss: 4.259123  loss_pixel: 0.0383  best_loss_pixel: 0.0312  
+epoch: 24  D_loss: 0.188500  G_loss: 3.635511  loss_pixel: 0.0326  best_loss_pixel: 0.0312  
+epoch: 25  D_loss: 0.197027  G_loss: 3.746555  loss_pixel: 0.0344  best_loss_pixel: 0.0312  
+epoch: 26  D_loss: 0.285590  G_loss: 3.902643  loss_pixel: 0.0335  best_loss_pixel: 0.0312  
+epoch: 27  D_loss: 0.230325  G_loss: 3.295229  loss_pixel: 0.0304  best_loss_pixel: 0.0312  
+epoch: 28  D_loss: 0.167782  G_loss: 3.823408  loss_pixel: 0.0350  best_loss_pixel: 0.0312  
+epoch: 29  D_loss: 0.145554  G_loss: 4.031225  loss_pixel: 0.0366  best_loss_pixel: 0.0312  
+epoch: 30  D_loss: 0.198409  G_loss: 3.980429  loss_pixel: 0.0366  best_loss_pixel: 0.0312  
+epoch: 31  D_loss: 0.189771  G_loss: 3.699052  loss_pixel: 0.0344  best_loss_pixel: 0.0312  
+epoch: 32  D_loss: 0.233878  G_loss: 3.784019  loss_pixel: 0.0334  best_loss_pixel: 0.0312  
+epoch: 33  D_loss: 0.220447  G_loss: 4.145479  loss_pixel: 0.0395  best_loss_pixel: 0.0312  
+epoch: 34  D_loss: 0.192248  G_loss: 3.606058  loss_pixel: 0.0333  best_loss_pixel: 0.0312  
+epoch: 35  D_loss: 0.268550  G_loss: 3.528341  loss_pixel: 0.0324  best_loss_pixel: 0.0312  
+epoch: 36  D_loss: 0.267503  G_loss: 3.980832  loss_pixel: 0.0345  best_loss_pixel: 0.0312  
+epoch: 37  D_loss: 0.305559  G_loss: 3.492311  loss_pixel: 0.0316  best_loss_pixel: 0.0312  
+epoch: 38  D_loss: 0.239690  G_loss: 3.745667  loss_pixel: 0.0344  best_loss_pixel: 0.0312  
+epoch: 39  D_loss: 0.198982  G_loss: 3.789560  loss_pixel: 0.0329  best_loss_pixel: 0.0312  
+epoch: 40  D_loss: 0.099209  G_loss: 4.417446  loss_pixel: 0.0393  best_loss_pixel: 0.0312  
+epoch: 41  D_loss: 0.232900  G_loss: 3.702163  loss_pixel: 0.0334  best_loss_pixel: 0.0312  
+epoch: 42  D_loss: 0.244126  G_loss: 3.785375  loss_pixel: 0.0357  best_loss_pixel: 0.0312  
+epoch: 43  D_loss: 0.236152  G_loss: 3.651150  loss_pixel: 0.0299  best_loss_pixel: 0.0312  
+epoch: 44  D_loss: 0.184823  G_loss: 3.660676  loss_pixel: 0.0334  best_loss_pixel: 0.0312  
+epoch: 45  D_loss: 0.328123  G_loss: 4.114253  loss_pixel: 0.0359  best_loss_pixel: 0.0312  
+epoch: 46  D_loss: 0.252825  G_loss: 3.646764  loss_pixel: 0.0347  best_loss_pixel: 0.0312  
+epoch: 47  D_loss: 0.295671  G_loss: 3.446715  loss_pixel: 0.0305  best_loss_pixel: 0.0312  
+epoch: 48  D_loss: 0.184688  G_loss: 3.495943  loss_pixel: 0.0325  best_loss_pixel: 0.0312  
+epoch: 49  D_loss: 0.182450  G_loss: 4.037917  loss_pixel: 0.0376  best_loss_pixel: 0.0312  
+epoch: 50  D_loss: 0.354621  G_loss: 3.600703  loss_pixel: 0.0347  best_loss_pixel: 0.0312  
+epoch: 51  D_loss: 0.199485  G_loss: 3.565137  loss_pixel: 0.0334  best_loss_pixel: 0.0312  
+epoch: 52  D_loss: 0.203849  G_loss: 2.995197  loss_pixel: 0.0267  best_loss_pixel: 0.0312  
+epoch: 53  D_loss: 0.283933  G_loss: 3.655607  loss_pixel: 0.0333  best_loss_pixel: 0.0312  
+epoch: 54  D_loss: 0.179307  G_loss: 3.376867  loss_pixel: 0.0311  best_loss_pixel: 0.0312  
+epoch: 55  D_loss: 0.182057  G_loss: 4.014115  loss_pixel: 0.0381  best_loss_pixel: 0.0312  
+epoch: 56  D_loss: 0.201481  G_loss: 3.284620  loss_pixel: 0.0305  best_loss_pixel: 0.0312  
+epoch: 57  D_loss: 0.265647  G_loss: 4.002148  loss_pixel: 0.0341  best_loss_pixel: 0.0312  
+epoch: 58  D_loss: 0.184814  G_loss: 3.450415  loss_pixel: 0.0322  best_loss_pixel: 0.0312  
+epoch: 59  D_loss: 0.202306  G_loss: 3.383336  loss_pixel: 0.0296  best_loss_pixel: 0.0312  
+epoch: 60  D_loss: 0.213420  G_loss: 3.486401  loss_pixel: 0.0304  best_loss_pixel: 0.0312  
+epoch: 61  D_loss: 0.196130  G_loss: 3.234466  loss_pixel: 0.0288  best_loss_pixel: 0.0312  
+epoch: 62  D_loss: 0.237348  G_loss: 3.434016  loss_pixel: 0.0315  best_loss_pixel: 0.0312  
+epoch: 63  D_loss: 0.160294  G_loss: 3.611566  loss_pixel: 0.0318  best_loss_pixel: 0.0312  
+epoch: 64  D_loss: 0.212315  G_loss: 3.482728  loss_pixel: 0.0325  best_loss_pixel: 0.0312  
+epoch: 65  D_loss: 0.325780  G_loss: 3.346933  loss_pixel: 0.0317  best_loss_pixel: 0.0312  
+epoch: 66  D_loss: 0.148996  G_loss: 3.252439  loss_pixel: 0.0286  best_loss_pixel: 0.0312  
+epoch: 67  D_loss: 0.201203  G_loss: 3.909098  loss_pixel: 0.0359  best_loss_pixel: 0.0312  
+epoch: 68  D_loss: 0.252388  G_loss: 3.003022  loss_pixel: 0.0279  best_loss_pixel: 0.0312  
+epoch: 69  D_loss: 0.190131  G_loss: 3.222614  loss_pixel: 0.0296  best_loss_pixel: 0.0312  
+epoch: 70  D_loss: 0.261255  G_loss: 3.068588  loss_pixel: 0.0288  best_loss_pixel: 0.0312  
+epoch: 71  D_loss: 0.331611  G_loss: 3.674213  loss_pixel: 0.0318  best_loss_pixel: 0.0312  
+epoch: 72  D_loss: 0.207073  G_loss: 3.147008  loss_pixel: 0.0284  best_loss_pixel: 0.0312  
+epoch: 73  D_loss: 0.217906  G_loss: 3.192319  loss_pixel: 0.0290  best_loss_pixel: 0.0312  
+epoch: 74  D_loss: 0.147197  G_loss: 3.206240  loss_pixel: 0.0288  best_loss_pixel: 0.0312  
+epoch: 75  D_loss: 0.199393  G_loss: 3.202065  loss_pixel: 0.0290  best_loss_pixel: 0.0312  
+epoch: 76  D_loss: 0.176417  G_loss: 3.428147  loss_pixel: 0.0303  best_loss_pixel: 0.0312  
+epoch: 77  D_loss: 0.212812  G_loss: 3.423281  loss_pixel: 0.0314  best_loss_pixel: 0.0312  
+epoch: 78  D_loss: 0.211389  G_loss: 3.431354  loss_pixel: 0.0314  best_loss_pixel: 0.0312  
+epoch: 79  D_loss: 0.218044  G_loss: 3.398994  loss_pixel: 0.0313  best_loss_pixel: 0.0312  
+epoch: 80  D_loss: 0.216496  G_loss: 2.973750  loss_pixel: 0.0265  best_loss_pixel: 0.0312  
+epoch: 81  D_loss: 0.242059  G_loss: 3.540987  loss_pixel: 0.0320  best_loss_pixel: 0.0312  
+epoch: 82  D_loss: 0.266764  G_loss: 3.073491  loss_pixel: 0.0274  best_loss_pixel: 0.0263  
+epoch: 83  D_loss: 0.187544  G_loss: 2.894506  loss_pixel: 0.0255  best_loss_pixel: 0.0263  
+epoch: 84  D_loss: 0.227903  G_loss: 3.185199  loss_pixel: 0.0274  best_loss_pixel: 0.0263  
+epoch: 85  D_loss: 0.275706  G_loss: 2.891415  loss_pixel: 0.0265  best_loss_pixel: 0.0263  
+epoch: 86  D_loss: 0.203074  G_loss: 3.220086  loss_pixel: 0.0285  best_loss_pixel: 0.0263  
+epoch: 87  D_loss: 0.241909  G_loss: 3.385731  loss_pixel: 0.0290  best_loss_pixel: 0.0263  
+epoch: 88  D_loss: 0.261625  G_loss: 2.860711  loss_pixel: 0.0251  best_loss_pixel: 0.0263  
+epoch: 89  D_loss: 0.277043  G_loss: 3.372603  loss_pixel: 0.0288  best_loss_pixel: 0.0263  
+epoch: 90  D_loss: 0.179791  G_loss: 3.344603  loss_pixel: 0.0304  best_loss_pixel: 0.0263  
+epoch: 91  D_loss: 0.172454  G_loss: 3.228742  loss_pixel: 0.0291  best_loss_pixel: 0.0263  
+epoch: 92  D_loss: 0.181788  G_loss: 3.572983  loss_pixel: 0.0325  best_loss_pixel: 0.0263  
+epoch: 93  D_loss: 0.181198  G_loss: 3.224124  loss_pixel: 0.0298  best_loss_pixel: 0.0263  
+epoch: 94  D_loss: 0.197407  G_loss: 3.550329  loss_pixel: 0.0322  best_loss_pixel: 0.0263  
+epoch: 95  D_loss: 0.175293  G_loss: 3.481263  loss_pixel: 0.0299  best_loss_pixel: 0.0263  
+epoch: 96  D_loss: 0.212347  G_loss: 3.225580  loss_pixel: 0.0279  best_loss_pixel: 0.0263  
+epoch: 97  D_loss: 0.195010  G_loss: 3.401909  loss_pixel: 0.0299  best_loss_pixel: 0.0263  
+epoch: 98  D_loss: 0.218544  G_loss: 2.807236  loss_pixel: 0.0256  best_loss_pixel: 0.0263  
+epoch: 99  D_loss: 0.251577  G_loss: 3.283593  loss_pixel: 0.0295  best_loss_pixel: 0.0263  
+epoch: 100  D_loss: 0.182572  G_loss: 3.331500  loss_pixel: 0.0299  best_loss_pixel: 0.0263  
+epoch: 101  D_loss: 0.224915  G_loss: 3.131826  loss_pixel: 0.0282  best_loss_pixel: 0.0263  
+epoch: 102  D_loss: 0.319335  G_loss: 3.790513  loss_pixel: 0.0280  best_loss_pixel: 0.0263  
+epoch: 103  D_loss: 0.193524  G_loss: 3.331503  loss_pixel: 0.0298  best_loss_pixel: 0.0263  
+epoch: 104  D_loss: 0.177335  G_loss: 3.158566  loss_pixel: 0.0269  best_loss_pixel: 0.0263  
+epoch: 105  D_loss: 0.213733  G_loss: 3.161878  loss_pixel: 0.0283  best_loss_pixel: 0.0263  
+epoch: 106  D_loss: 0.149922  G_loss: 3.458415  loss_pixel: 0.0293  best_loss_pixel: 0.0263  
+epoch: 107  D_loss: 0.225682  G_loss: 3.063466  loss_pixel: 0.0268  best_loss_pixel: 0.0263  
+epoch: 108  D_loss: 0.202145  G_loss: 3.192525  loss_pixel: 0.0280  best_loss_pixel: 0.0263  
+epoch: 109  D_loss: 0.176241  G_loss: 3.408867  loss_pixel: 0.0306  best_loss_pixel: 0.0263  
+epoch: 110  D_loss: 0.222272  G_loss: 2.826324  loss_pixel: 0.0248  best_loss_pixel: 0.0263  
+epoch: 111  D_loss: 0.210370  G_loss: 2.996225  loss_pixel: 0.0280  best_loss_pixel: 0.0263  
+epoch: 112  D_loss: 0.187293  G_loss: 3.325473  loss_pixel: 0.0294  best_loss_pixel: 0.0263  
+epoch: 113  D_loss: 0.227749  G_loss: 2.886898  loss_pixel: 0.0269  best_loss_pixel: 0.0263  
+epoch: 114  D_loss: 0.233184  G_loss: 2.904766  loss_pixel: 0.0268  best_loss_pixel: 0.0263  
+epoch: 115  D_loss: 0.234888  G_loss: 3.387019  loss_pixel: 0.0288  best_loss_pixel: 0.0263  
+epoch: 116  D_loss: 0.269568  G_loss: 3.096700  loss_pixel: 0.0282  best_loss_pixel: 0.0263  
+epoch: 117  D_loss: 0.258095  G_loss: 3.280102  loss_pixel: 0.0301  best_loss_pixel: 0.0263  
+epoch: 118  D_loss: 0.189889  G_loss: 3.125470  loss_pixel: 0.0277  best_loss_pixel: 0.0263  
+epoch: 119  D_loss: 0.203865  G_loss: 2.893326  loss_pixel: 0.0265  best_loss_pixel: 0.0263  
+epoch: 120  D_loss: 0.225854  G_loss: 3.247084  loss_pixel: 0.0274  best_loss_pixel: 0.0263  
+epoch: 121  D_loss: 0.257902  G_loss: 3.250541  loss_pixel: 0.0291  best_loss_pixel: 0.0263  
+epoch: 122  D_loss: 0.250304  G_loss: 2.452604  loss_pixel: 0.0219  best_loss_pixel: 0.0263  
+epoch: 123  D_loss: 0.252530  G_loss: 3.008903  loss_pixel: 0.0277  best_loss_pixel: 0.0263  
+epoch: 124  D_loss: 0.251793  G_loss: 2.572673  loss_pixel: 0.0233  best_loss_pixel: 0.0262  
+epoch: 125  D_loss: 0.251620  G_loss: 2.433884  loss_pixel: 0.0217  best_loss_pixel: 0.0262  
+epoch: 126  D_loss: 0.252284  G_loss: 2.816567  loss_pixel: 0.0264  best_loss_pixel: 0.0262  
+epoch: 127  D_loss: 0.249527  G_loss: 2.435050  loss_pixel: 0.0218  best_loss_pixel: 0.0262  
+epoch: 128  D_loss: 0.252169  G_loss: 2.415145  loss_pixel: 0.0216  best_loss_pixel: 0.0262  
+epoch: 129  D_loss: 0.245142  G_loss: 2.624978  loss_pixel: 0.0240  best_loss_pixel: 0.0262  
+epoch: 130  D_loss: 0.253048  G_loss: 2.420556  loss_pixel: 0.0213  best_loss_pixel: 0.0262  
+epoch: 131  D_loss: 0.254765  G_loss: 2.596623  loss_pixel: 0.0228  best_loss_pixel: 0.0262  
+epoch: 132  D_loss: 0.248404  G_loss: 2.496783  loss_pixel: 0.0223  best_loss_pixel: 0.0262  
+epoch: 133  D_loss: 0.254487  G_loss: 2.401338  loss_pixel: 0.0209  best_loss_pixel: 0.0262  
+epoch: 134  D_loss: 0.236593  G_loss: 2.706488  loss_pixel: 0.0245  best_loss_pixel: 0.0262  
+epoch: 135  D_loss: 0.251028  G_loss: 2.678403  loss_pixel: 0.0250  best_loss_pixel: 0.0262  
+epoch: 136  D_loss: 0.239401  G_loss: 2.550993  loss_pixel: 0.0234  best_loss_pixel: 0.0262  
+epoch: 137  D_loss: 0.240053  G_loss: 2.657955  loss_pixel: 0.0229  best_loss_pixel: 0.0262  
+epoch: 138  D_loss: 0.254526  G_loss: 2.538511  loss_pixel: 0.0229  best_loss_pixel: 0.0262  
+epoch: 139  D_loss: 0.317546  G_loss: 2.995143  loss_pixel: 0.0244  best_loss_pixel: 0.0262  
+epoch: 140  D_loss: 0.241564  G_loss: 2.696924  loss_pixel: 0.0252  best_loss_pixel: 0.0262  
+epoch: 141  D_loss: 0.222519  G_loss: 2.586921  loss_pixel: 0.0233  best_loss_pixel: 0.0262  
+epoch: 142  D_loss: 0.222172  G_loss: 2.571638  loss_pixel: 0.0227  best_loss_pixel: 0.0262  
+epoch: 143  D_loss: 0.210456  G_loss: 2.600401  loss_pixel: 0.0230  best_loss_pixel: 0.0262  
+epoch: 144  D_loss: 0.207378  G_loss: 2.731564  loss_pixel: 0.0243  best_loss_pixel: 0.0262  
+epoch: 145  D_loss: 0.206124  G_loss: 2.783151  loss_pixel: 0.0238  best_loss_pixel: 0.0262  
+epoch: 146  D_loss: 0.239703  G_loss: 2.601809  loss_pixel: 0.0242  best_loss_pixel: 0.0262  
+epoch: 147  D_loss: 0.201018  G_loss: 2.686909  loss_pixel: 0.0240  best_loss_pixel: 0.0262  
+epoch: 148  D_loss: 0.194061  G_loss: 3.034822  loss_pixel: 0.0257  best_loss_pixel: 0.0262  
+epoch: 149  D_loss: 0.240123  G_loss: 2.806495  loss_pixel: 0.0240  best_loss_pixel: 0.0262  
+epoch: 150  D_loss: 0.196983  G_loss: 2.738384  loss_pixel: 0.0246  best_loss_pixel: 0.0262  
+epoch: 151  D_loss: 0.245184  G_loss: 2.651679  loss_pixel: 0.0228  best_loss_pixel: 0.0262  
+epoch: 152  D_loss: 0.247640  G_loss: 2.579915  loss_pixel: 0.0230  best_loss_pixel: 0.0262  
+epoch: 153  D_loss: 0.298036  G_loss: 2.491673  loss_pixel: 0.0232  best_loss_pixel: 0.0262  
+epoch: 154  D_loss: 0.201151  G_loss: 3.115979  loss_pixel: 0.0277  best_loss_pixel: 0.0262  
+epoch: 155  D_loss: 0.201199  G_loss: 2.795398  loss_pixel: 0.0257  best_loss_pixel: 0.0262  
+epoch: 156  D_loss: 0.237671  G_loss: 2.505964  loss_pixel: 0.0230  best_loss_pixel: 0.0262  
+epoch: 157  D_loss: 0.270479  G_loss: 3.114937  loss_pixel: 0.0242  best_loss_pixel: 0.0262  
+epoch: 158  D_loss: 0.202107  G_loss: 2.624454  loss_pixel: 0.0237  best_loss_pixel: 0.0262  
+epoch: 159  D_loss: 0.204483  G_loss: 2.868956  loss_pixel: 0.0242  best_loss_pixel: 0.0262  
+epoch: 160  D_loss: 0.257980  G_loss: 2.635001  loss_pixel: 0.0246  best_loss_pixel: 0.0262  
+epoch: 161  D_loss: 0.248670  G_loss: 2.807444  loss_pixel: 0.0252  best_loss_pixel: 0.0262  
+epoch: 162  D_loss: 0.226266  G_loss: 2.923811  loss_pixel: 0.0265  best_loss_pixel: 0.0262  
+epoch: 163  D_loss: 0.223288  G_loss: 2.572016  loss_pixel: 0.0233  best_loss_pixel: 0.0262  
+epoch: 164  D_loss: 0.212925  G_loss: 2.924601  loss_pixel: 0.0251  best_loss_pixel: 0.0262  
+epoch: 165  D_loss: 0.210417  G_loss: 2.760088  loss_pixel: 0.0245  best_loss_pixel: 0.0262  
+epoch: 166  D_loss: 0.287925  G_loss: 3.278348  loss_pixel: 0.0274  best_loss_pixel: 0.0262  
+epoch: 167  D_loss: 0.226351  G_loss: 2.642857  loss_pixel: 0.0223  best_loss_pixel: 0.0262  
+epoch: 168  D_loss: 0.223408  G_loss: 2.665176  loss_pixel: 0.0241  best_loss_pixel: 0.0262  
+epoch: 169  D_loss: 0.245952  G_loss: 2.437487  loss_pixel: 0.0216  best_loss_pixel: 0.0262  
+epoch: 170  D_loss: 0.207755  G_loss: 2.463464  loss_pixel: 0.0209  best_loss_pixel: 0.0262  
+epoch: 171  D_loss: 0.232669  G_loss: 2.477962  loss_pixel: 0.0219  best_loss_pixel: 0.0262  
+epoch: 172  D_loss: 0.222801  G_loss: 2.662305  loss_pixel: 0.0246  best_loss_pixel: 0.0262  
+epoch: 173  D_loss: 0.239408  G_loss: 2.518600  loss_pixel: 0.0215  best_loss_pixel: 0.0262  
+epoch: 174  D_loss: 0.219735  G_loss: 2.554676  loss_pixel: 0.0230  best_loss_pixel: 0.0262  
+epoch: 175  D_loss: 0.242542  G_loss: 2.901934  loss_pixel: 0.0247  best_loss_pixel: 0.0262  
+epoch: 176  D_loss: 0.210733  G_loss: 2.837532  loss_pixel: 0.0257  best_loss_pixel: 0.0262  
+epoch: 177  D_loss: 0.234126  G_loss: 2.665116  loss_pixel: 0.0241  best_loss_pixel: 0.0262  
+epoch: 178  D_loss: 0.241585  G_loss: 2.800898  loss_pixel: 0.0260  best_loss_pixel: 0.0262  
+epoch: 179  D_loss: 0.250325  G_loss: 2.855571  loss_pixel: 0.0260  best_loss_pixel: 0.0262  
+epoch: 180  D_loss: 0.243859  G_loss: 2.699281  loss_pixel: 0.0245  best_loss_pixel: 0.0262  
+epoch: 181  D_loss: 0.229098  G_loss: 2.806041  loss_pixel: 0.0245  best_loss_pixel: 0.0262  
+epoch: 182  D_loss: 0.242777  G_loss: 2.533273  loss_pixel: 0.0226  best_loss_pixel: 0.0262  
+epoch: 183  D_loss: 0.236514  G_loss: 2.735645  loss_pixel: 0.0249  best_loss_pixel: 0.0262  
+epoch: 184  D_loss: 0.237738  G_loss: 2.762069  loss_pixel: 0.0248  best_loss_pixel: 0.0262  
+epoch: 185  D_loss: 0.162708  G_loss: 3.161450  loss_pixel: 0.0285  best_loss_pixel: 0.0262  
+epoch: 186  D_loss: 0.218472  G_loss: 2.839289  loss_pixel: 0.0249  best_loss_pixel: 0.0262  
+epoch: 187  D_loss: 0.209501  G_loss: 2.697580  loss_pixel: 0.0242  best_loss_pixel: 0.0262  
+epoch: 188  D_loss: 0.209266  G_loss: 2.915153  loss_pixel: 0.0254  best_loss_pixel: 0.0262  
+epoch: 189  D_loss: 0.219058  G_loss: 2.678413  loss_pixel: 0.0223  best_loss_pixel: 0.0262  
+epoch: 190  D_loss: 0.207835  G_loss: 2.809916  loss_pixel: 0.0250  best_loss_pixel: 0.0262  
+epoch: 191  D_loss: 0.243552  G_loss: 2.553603  loss_pixel: 0.0235  best_loss_pixel: 0.0262  
+epoch: 192  D_loss: 0.202554  G_loss: 2.802526  loss_pixel: 0.0249  best_loss_pixel: 0.0262  
+epoch: 193  D_loss: 0.232219  G_loss: 2.699937  loss_pixel: 0.0239  best_loss_pixel: 0.0262  
+epoch: 194  D_loss: 0.255546  G_loss: 2.943432  loss_pixel: 0.0238  best_loss_pixel: 0.0262  
+epoch: 195  D_loss: 0.237400  G_loss: 2.764915  loss_pixel: 0.0239  best_loss_pixel: 0.0262  
+epoch: 196  D_loss: 0.230560  G_loss: 2.664918  loss_pixel: 0.0242  best_loss_pixel: 0.0262  
+epoch: 197  D_loss: 0.197480  G_loss: 2.987300  loss_pixel: 0.0268  best_loss_pixel: 0.0262  
+epoch: 198  D_loss: 0.231210  G_loss: 3.135019  loss_pixel: 0.0259  best_loss_pixel: 0.0262  
+epoch: 199  D_loss: 0.249081  G_loss: 2.470714  loss_pixel: 0.0224  best_loss_pixel: 0.0262  
+epoch: 200  D_loss: 0.210071  G_loss: 2.904833  loss_pixel: 0.0254  best_loss_pixel: 0.0262  

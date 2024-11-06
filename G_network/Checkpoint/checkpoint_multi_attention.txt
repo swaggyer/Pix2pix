@@ -1,0 +1,48 @@
+epoch: 1  D_loss: 1.650094  G_loss: 87.803780  loss_pixel: 0.8582  lr: 0.0000002  
+
+epoch: 1  D_loss: 1.625384  G_loss: 89.254845  loss_pixel: 0.8797  lr: 0.0000002  
+
+epoch: 2  D_loss: 0.982175  G_loss: 82.386116  loss_pixel: 0.8131  lr: 0.0000022  
+
+epoch: 3  D_loss: 0.601725  G_loss: 72.468536  loss_pixel: 0.7150  lr: 0.0000042  
+
+epoch: 4  D_loss: 0.299846  G_loss: 71.661957  loss_pixel: 0.7063  lr: 0.0000062  
+
+epoch: 5  D_loss: 0.192093  G_loss: 71.559662  loss_pixel: 0.7048  lr: 0.0000082  
+
+epoch: 6  D_loss: 0.127343  G_loss: 69.477730  loss_pixel: 0.6842  lr: 0.0000102  
+
+epoch: 7  D_loss: 0.076365  G_loss: 70.174210  loss_pixel: 0.6916  lr: 0.0000122  
+
+epoch: 8  D_loss: 0.058579  G_loss: 69.223282  loss_pixel: 0.6821  lr: 0.0000142  
+
+epoch: 9  D_loss: 0.043395  G_loss: 67.373718  loss_pixel: 0.6641  lr: 0.0000162  
+
+epoch: 10  D_loss: 0.030402  G_loss: 66.630539  loss_pixel: 0.6563  lr: 0.0000182  
+
+epoch: 11  D_loss: 0.022257  G_loss: 66.153008  loss_pixel: 0.6516  lr: 0.0000202  
+
+epoch: 12  D_loss: 0.018896  G_loss: 65.696449  loss_pixel: 0.6473  lr: 0.0000222  
+
+epoch: 13  D_loss: 0.015605  G_loss: 65.893425  loss_pixel: 0.6492  lr: 0.0000242  
+
+epoch: 14  D_loss: 0.013776  G_loss: 64.535957  loss_pixel: 0.6352  lr: 0.0000262  
+
+epoch: 15  D_loss: 0.013032  G_loss: 64.507347  loss_pixel: 0.6356  lr: 0.0000282  
+
+epoch: 16  D_loss: 0.016036  G_loss: 64.943665  loss_pixel: 0.6397  lr: 0.0000302  
+
+epoch: 17  D_loss: 0.007639  G_loss: 63.732063  loss_pixel: 0.6278  lr: 0.0000322  
+
+epoch: 18  D_loss: 0.010062  G_loss: 62.181877  loss_pixel: 0.6126  lr: 0.0000342  
+
+epoch: 19  D_loss: 0.006215  G_loss: 62.809063  loss_pixel: 0.6180  lr: 0.0000362  
+
+epoch: 20  D_loss: 0.005953  G_loss: 63.136177  loss_pixel: 0.6215  lr: 0.0000382  
+
+epoch: 21  D_loss: 0.004533  G_loss: 62.018261  loss_pixel: 0.6103  lr: 0.0000402  
+
+epoch: 22  D_loss: 0.005520  G_loss: 62.073063  loss_pixel: 0.6104  lr: 0.0000422  
+
+epoch: 23  D_loss: 0.004166  G_loss: 60.488976  loss_pixel: 0.5947  lr: 0.0000442  
+

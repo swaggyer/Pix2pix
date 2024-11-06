@@ -1,0 +1,1656 @@
+[epoch: 1]
+D_loss: 0.324480
+G_loss: 56.790764
+loss_pixel: 0.5565
+lr: 0.0002000
+trained_times:777.9361s
+now_bestlosspixel:1.0000
+
+[epoch: 2]
+D_loss: 0.154203
+G_loss: 55.600533
+loss_pixel: 0.5451
+lr: 0.0002000
+trained_times:778.1193s
+now_bestlosspixel:0.5565
+
+[epoch: 3]
+D_loss: 0.108568
+G_loss: 54.938869
+loss_pixel: 0.5392
+lr: 0.0002000
+trained_times:758.6608s
+now_bestlosspixel:0.5451
+
+[epoch: 4]
+D_loss: 0.058430
+G_loss: 53.978519
+loss_pixel: 0.5297
+lr: 0.0002000
+trained_times:747.2174s
+now_bestlosspixel:0.5392
+
+[epoch: 5]
+D_loss: 0.046081
+G_loss: 53.457172
+loss_pixel: 0.5245
+lr: 0.0002000
+trained_times:741.1272s
+now_bestlosspixel:0.5297
+
+[epoch: 6]
+D_loss: 0.033771
+G_loss: 53.377045
+loss_pixel: 0.5234
+lr: 0.0002000
+trained_times:655.0988s
+now_bestlosspixel:0.5245
+
+[epoch: 7]
+D_loss: 0.024675
+G_loss: 53.373901
+loss_pixel: 0.5235
+lr: 0.0002000
+trained_times:649.8341s
+now_bestlosspixel:0.5234
+
+[epoch: 8]
+D_loss: 0.020308
+G_loss: 52.965916
+loss_pixel: 0.5197
+lr: 0.0002000
+trained_times:645.9593s
+now_bestlosspixel:0.5234
+
+[epoch: 9]
+D_loss: 0.086848
+G_loss: 52.345314
+loss_pixel: 0.5126
+lr: 0.0002000
+trained_times:640.3779s
+now_bestlosspixel:0.5197
+
+[epoch: 10]
+D_loss: 0.020302
+G_loss: 51.516499
+loss_pixel: 0.5055
+lr: 0.0002000
+trained_times:635.6020s
+now_bestlosspixel:0.5126
+
+[epoch: 11]
+D_loss: 0.015329
+G_loss: 51.230324
+loss_pixel: 0.5021
+lr: 0.0002000
+trained_times:685.0259s
+now_bestlosspixel:0.5055
+
+[epoch: 12]
+D_loss: 0.012224
+G_loss: 51.302620
+loss_pixel: 0.5032
+lr: 0.0002000
+trained_times:675.1049s
+now_bestlosspixel:0.5021
+
+[epoch: 13]
+D_loss: 0.013498
+G_loss: 51.067120
+loss_pixel: 0.5007
+lr: 0.0002000
+trained_times:679.5977s
+now_bestlosspixel:0.5021
+
+[epoch: 14]
+D_loss: 0.011737
+G_loss: 50.936287
+loss_pixel: 0.4991
+lr: 0.0002000
+trained_times:669.0590s
+now_bestlosspixel:0.5007
+
+[epoch: 15]
+D_loss: 0.013696
+G_loss: 50.874939
+loss_pixel: 0.4988
+lr: 0.0002000
+trained_times:662.0877s
+now_bestlosspixel:0.4991
+
+[epoch: 16]
+D_loss: 0.009532
+G_loss: 50.214340
+loss_pixel: 0.4920
+lr: 0.0002000
+trained_times:678.3395s
+now_bestlosspixel:0.4988
+
+[epoch: 17]
+D_loss: 0.009745
+G_loss: 49.715816
+loss_pixel: 0.4877
+lr: 0.0002000
+trained_times:643.1481s
+now_bestlosspixel:0.4920
+
+[epoch: 18]
+D_loss: 0.034660
+G_loss: 49.682079
+loss_pixel: 0.4861
+lr: 0.0002000
+trained_times:637.0596s
+now_bestlosspixel:0.4877
+
+[epoch: 19]
+D_loss: 0.014653
+G_loss: 49.614769
+loss_pixel: 0.4860
+lr: 0.0002000
+trained_times:637.8159s
+now_bestlosspixel:0.4861
+
+[epoch: 20]
+D_loss: 0.006314
+G_loss: 48.639515
+loss_pixel: 0.4764
+lr: 0.0002000
+trained_times:653.7161s
+now_bestlosspixel:0.4860
+
+[epoch: 21]
+D_loss: 0.006879
+G_loss: 48.864422
+loss_pixel: 0.4791
+lr: 0.0002000
+trained_times:736.8803s
+now_bestlosspixel:0.4764
+
+[epoch: 22]
+D_loss: 0.041722
+G_loss: 48.692211
+loss_pixel: 0.4761
+lr: 0.0002000
+trained_times:732.5069s
+now_bestlosspixel:0.4764
+
+[epoch: 23]
+D_loss: 0.006385
+G_loss: 48.333828
+loss_pixel: 0.4735
+lr: 0.0002000
+trained_times:730.8973s
+now_bestlosspixel:0.4761
+
+[epoch: 24]
+D_loss: 0.005251
+G_loss: 47.741089
+loss_pixel: 0.4677
+lr: 0.0002000
+trained_times:728.1457s
+now_bestlosspixel:0.4735
+
+[epoch: 25]
+D_loss: 0.007886
+G_loss: 47.719204
+loss_pixel: 0.4676
+lr: 0.0002000
+trained_times:728.7404s
+now_bestlosspixel:0.4677
+
+[epoch: 26]
+D_loss: 0.008498
+G_loss: 47.747540
+loss_pixel: 0.4667
+lr: 0.0002000
+trained_times:817.0083s
+now_bestlosspixel:0.4676
+
+[epoch: 27]
+D_loss: 0.008881
+G_loss: 47.441067
+loss_pixel: 0.4643
+lr: 0.0002000
+trained_times:798.1646s
+now_bestlosspixel:0.4667
+
+[epoch: 28]
+D_loss: 0.057645
+G_loss: 47.546749
+loss_pixel: 0.4650
+lr: 0.0002000
+trained_times:775.1914s
+now_bestlosspixel:0.4643
+
+[epoch: 29]
+D_loss: 0.005785
+G_loss: 46.548054
+loss_pixel: 0.4555
+lr: 0.0002000
+trained_times:783.7548s
+now_bestlosspixel:0.4643
+
+[epoch: 30]
+D_loss: 0.010493
+G_loss: 46.532921
+loss_pixel: 0.4552
+lr: 0.0002000
+trained_times:773.1911s
+now_bestlosspixel:0.4555
+
+[epoch: 31]
+D_loss: 0.006015
+G_loss: 46.329735
+loss_pixel: 0.4536
+lr: 0.0002000
+trained_times:827.2647s
+now_bestlosspixel:0.4552
+
+[epoch: 32]
+D_loss: 0.007689
+G_loss: 46.123375
+loss_pixel: 0.4517
+lr: 0.0002000
+trained_times:823.7090s
+now_bestlosspixel:0.4536
+
+[epoch: 33]
+D_loss: 0.021385
+G_loss: 45.860577
+loss_pixel: 0.4480
+lr: 0.0002000
+trained_times:822.7875s
+now_bestlosspixel:0.4517
+
+[epoch: 34]
+D_loss: 0.009836
+G_loss: 45.338081
+loss_pixel: 0.4432
+lr: 0.0002000
+trained_times:821.8342s
+now_bestlosspixel:0.4480
+
+[epoch: 35]
+D_loss: 0.007286
+G_loss: 45.352943
+loss_pixel: 0.4438
+lr: 0.0002000
+trained_times:825.3625s
+now_bestlosspixel:0.4432
+
+[epoch: 36]
+D_loss: 0.005910
+G_loss: 45.246891
+loss_pixel: 0.4431
+lr: 0.0002000
+trained_times:849.0214s
+now_bestlosspixel:0.4432
+
+[epoch: 37]
+D_loss: 0.016369
+G_loss: 44.600544
+loss_pixel: 0.4351
+lr: 0.0002000
+trained_times:841.1609s
+now_bestlosspixel:0.4431
+
+[epoch: 38]
+D_loss: 0.010115
+G_loss: 44.117268
+loss_pixel: 0.4313
+lr: 0.0002000
+trained_times:846.8480s
+now_bestlosspixel:0.4351
+
+[epoch: 39]
+D_loss: 0.003247
+G_loss: 44.293449
+loss_pixel: 0.4327
+lr: 0.0002000
+trained_times:837.9295s
+now_bestlosspixel:0.4313
+
+[epoch: 40]
+D_loss: 0.012789
+G_loss: 44.326912
+loss_pixel: 0.4329
+lr: 0.0002000
+trained_times:837.1210s
+now_bestlosspixel:0.4313
+
+[epoch: 41]
+D_loss: 0.008241
+G_loss: 43.851860
+loss_pixel: 0.4279
+lr: 0.0002000
+trained_times:931.0455s
+now_bestlosspixel:0.4313
+
+[epoch: 42]
+D_loss: 0.003176
+G_loss: 44.184418
+loss_pixel: 0.4317
+lr: 0.0002000
+trained_times:927.1464s
+now_bestlosspixel:0.4279
+
+[epoch: 43]
+D_loss: 0.008344
+G_loss: 43.060265
+loss_pixel: 0.4205
+lr: 0.0002000
+trained_times:933.4287s
+now_bestlosspixel:0.4279
+
+[epoch: 44]
+D_loss: 0.003133
+G_loss: 43.073269
+loss_pixel: 0.4207
+lr: 0.0002000
+trained_times:950.7717s
+now_bestlosspixel:0.4205
+
+[epoch: 45]
+D_loss: 0.004954
+G_loss: 42.884827
+loss_pixel: 0.4184
+lr: 0.0002000
+trained_times:945.8734s
+now_bestlosspixel:0.4205
+
+[epoch: 46]
+D_loss: 0.006227
+G_loss: 43.040062
+loss_pixel: 0.4205
+lr: 0.0002000
+trained_times:861.7037s
+now_bestlosspixel:0.4184
+
+[epoch: 47]
+D_loss: 0.002432
+G_loss: 42.461388
+loss_pixel: 0.4146
+lr: 0.0002000
+trained_times:819.9276s
+now_bestlosspixel:0.4184
+
+[epoch: 48]
+D_loss: 0.003289
+G_loss: 42.115547
+loss_pixel: 0.4111
+lr: 0.0002000
+trained_times:784.2458s
+now_bestlosspixel:0.4146
+
+[epoch: 49]
+D_loss: 0.010977
+G_loss: 42.335049
+loss_pixel: 0.4128
+lr: 0.0002000
+trained_times:770.8447s
+now_bestlosspixel:0.4111
+
+[epoch: 50]
+D_loss: 0.002238
+G_loss: 41.795784
+loss_pixel: 0.4080
+lr: 0.0002000
+trained_times:742.1156s
+now_bestlosspixel:0.4111
+
+[epoch: 51]
+D_loss: 0.081606
+G_loss: 41.956623
+loss_pixel: 0.4090
+lr: 0.0002000
+trained_times:691.0366s
+now_bestlosspixel:0.4080
+
+[epoch: 52]
+D_loss: 0.002732
+G_loss: 41.605595
+loss_pixel: 0.4065
+lr: 0.0002000
+trained_times:664.1164s
+now_bestlosspixel:0.4080
+
+[epoch: 53]
+D_loss: 0.002199
+G_loss: 41.110649
+loss_pixel: 0.4013
+lr: 0.0002000
+trained_times:645.6879s
+now_bestlosspixel:0.4065
+
+[epoch: 54]
+D_loss: 0.006043
+G_loss: 41.055969
+loss_pixel: 0.4006
+lr: 0.0002000
+trained_times:638.6693s
+now_bestlosspixel:0.4013
+
+[epoch: 55]
+D_loss: 0.004760
+G_loss: 41.194630
+loss_pixel: 0.4021
+lr: 0.0002000
+trained_times:636.6544s
+now_bestlosspixel:0.4006
+
+[epoch: 56]
+D_loss: 0.002797
+G_loss: 40.957855
+loss_pixel: 0.3998
+lr: 0.0002000
+trained_times:665.4599s
+now_bestlosspixel:0.4006
+
+[epoch: 57]
+D_loss: 0.005886
+G_loss: 40.270367
+loss_pixel: 0.3925
+lr: 0.0002000
+trained_times:664.2062s
+now_bestlosspixel:0.3998
+
+[epoch: 58]
+D_loss: 0.027137
+G_loss: 40.440376
+loss_pixel: 0.3945
+lr: 0.0002000
+trained_times:658.3103s
+now_bestlosspixel:0.3925
+
+[epoch: 59]
+D_loss: 0.005041
+G_loss: 40.821442
+loss_pixel: 0.3979
+lr: 0.0002000
+trained_times:659.0673s
+now_bestlosspixel:0.3925
+
+[epoch: 60]
+D_loss: 0.011226
+G_loss: 39.692905
+loss_pixel: 0.3862
+lr: 0.0002000
+trained_times:661.0536s
+now_bestlosspixel:0.3925
+
+[epoch: 61]
+D_loss: 0.001868
+G_loss: 40.332630
+loss_pixel: 0.3934
+lr: 0.0002000
+trained_times:729.1322s
+now_bestlosspixel:0.3862
+
+[epoch: 62]
+D_loss: 0.003804
+G_loss: 39.850227
+loss_pixel: 0.3883
+lr: 0.0002000
+trained_times:729.7284s
+now_bestlosspixel:0.3862
+
+[epoch: 63]
+D_loss: 0.016856
+G_loss: 39.672268
+loss_pixel: 0.3864
+lr: 0.0002000
+trained_times:717.2869s
+now_bestlosspixel:0.3862
+
+[epoch: 64]
+D_loss: 0.010388
+G_loss: 39.587070
+loss_pixel: 0.3856
+lr: 0.0002000
+trained_times:715.6892s
+now_bestlosspixel:0.3862
+
+[epoch: 65]
+D_loss: 0.001591
+G_loss: 39.325924
+loss_pixel: 0.3833
+lr: 0.0002000
+trained_times:699.5995s
+now_bestlosspixel:0.3856
+
+[epoch: 66]
+D_loss: 0.002709
+G_loss: 39.622181
+loss_pixel: 0.3857
+lr: 0.0002000
+trained_times:796.0509s
+now_bestlosspixel:0.3833
+
+[epoch: 67]
+D_loss: 0.017485
+G_loss: 38.976219
+loss_pixel: 0.3798
+lr: 0.0002000
+trained_times:766.4282s
+now_bestlosspixel:0.3833
+
+[epoch: 68]
+D_loss: 0.003364
+G_loss: 39.140697
+loss_pixel: 0.3814
+lr: 0.0002000
+trained_times:728.5778s
+now_bestlosspixel:0.3798
+
+[epoch: 69]
+D_loss: 0.005359
+G_loss: 38.831913
+loss_pixel: 0.3783
+lr: 0.0002000
+trained_times:725.7337s
+now_bestlosspixel:0.3798
+
+[epoch: 70]
+D_loss: 0.003905
+G_loss: 38.836311
+loss_pixel: 0.3785
+lr: 0.0002000
+trained_times:725.1028s
+now_bestlosspixel:0.3783
+
+[epoch: 71]
+D_loss: 0.013077
+G_loss: 38.163872
+loss_pixel: 0.3717
+lr: 0.0002000
+trained_times:753.2604s
+now_bestlosspixel:0.3783
+
+[epoch: 72]
+D_loss: 0.002853
+G_loss: 38.627914
+loss_pixel: 0.3761
+lr: 0.0002000
+trained_times:739.6248s
+now_bestlosspixel:0.3717
+
+[epoch: 73]
+D_loss: 0.028806
+G_loss: 38.002018
+loss_pixel: 0.3695
+lr: 0.0002000
+trained_times:741.4442s
+now_bestlosspixel:0.3717
+
+[epoch: 74]
+D_loss: 0.006950
+G_loss: 37.860424
+loss_pixel: 0.3683
+lr: 0.0002000
+trained_times:723.0744s
+now_bestlosspixel:0.3695
+
+[epoch: 75]
+D_loss: 0.002908
+G_loss: 37.902458
+loss_pixel: 0.3694
+lr: 0.0002000
+trained_times:704.9685s
+now_bestlosspixel:0.3683
+
+[epoch: 71]
+D_loss: 0.004776
+G_loss: 38.414490
+loss_pixel: 0.3739
+lr: 0.0002000
+trained_times:571.8477s
+now_bestlosspixel:1.0000
+
+[epoch: 72]
+D_loss: 0.036169
+G_loss: 36.540859
+loss_pixel: 0.3559
+lr: 0.0002000
+trained_times:547.7134s
+now_bestlosspixel:0.3739
+
+[epoch: 73]
+D_loss: 0.003210
+G_loss: 37.067986
+loss_pixel: 0.3602
+lr: 0.0002000
+trained_times:523.3920s
+now_bestlosspixel:0.3559
+
+[epoch: 74]
+D_loss: 0.017329
+G_loss: 36.321499
+loss_pixel: 0.3537
+lr: 0.0002000
+trained_times:518.1256s
+now_bestlosspixel:0.3559
+
+[epoch: 75]
+D_loss: 0.005052
+G_loss: 36.568089
+loss_pixel: 0.3559
+lr: 0.0002000
+trained_times:515.2561s
+now_bestlosspixel:0.3537
+
+[epoch: 76]
+D_loss: 0.007510
+G_loss: 35.089748
+loss_pixel: 0.3411
+lr: 0.0002000
+trained_times:505.0146s
+now_bestlosspixel:0.3537
+
+[epoch: 77]
+D_loss: 0.007742
+G_loss: 34.709629
+loss_pixel: 0.3368
+lr: 0.0002000
+trained_times:625.0251s
+now_bestlosspixel:0.3411
+
+[epoch: 78]
+D_loss: 0.013958
+G_loss: 35.310467
+loss_pixel: 0.3426
+lr: 0.0002000
+trained_times:619.0608s
+now_bestlosspixel:0.3368
+
+[epoch: 79]
+D_loss: 0.001405
+G_loss: 35.251286
+loss_pixel: 0.3425
+lr: 0.0002000
+trained_times:513.6736s
+now_bestlosspixel:0.3368
+
+[epoch: 80]
+D_loss: 0.011297
+G_loss: 34.128899
+loss_pixel: 0.3316
+lr: 0.0002000
+trained_times:507.4664s
+now_bestlosspixel:0.3368
+
+[epoch: 81]
+D_loss: 0.022900
+G_loss: 34.476826
+loss_pixel: 0.3350
+lr: 0.0002000
+trained_times:568.0277s
+now_bestlosspixel:0.3316
+
+[epoch: 82]
+D_loss: 0.004102
+G_loss: 34.307316
+loss_pixel: 0.3330
+lr: 0.0002000
+trained_times:562.0794s
+now_bestlosspixel:0.3316
+
+[epoch: 83]
+D_loss: 0.005075
+G_loss: 33.644821
+loss_pixel: 0.3265
+lr: 0.0002000
+trained_times:664.8228s
+now_bestlosspixel:0.3316
+
+[epoch: 84]
+D_loss: 0.022622
+G_loss: 33.090580
+loss_pixel: 0.3209
+lr: 0.0002000
+trained_times:661.5170s
+now_bestlosspixel:0.3265
+
+[epoch: 85]
+D_loss: 0.016192
+G_loss: 33.387051
+loss_pixel: 0.3235
+lr: 0.0002000
+trained_times:671.2153s
+now_bestlosspixel:0.3209
+
+[epoch: 86]
+D_loss: 0.002841
+G_loss: 32.904457
+loss_pixel: 0.3186
+lr: 0.0002000
+trained_times:619.8272s
+now_bestlosspixel:0.3209
+
+[epoch: 87]
+D_loss: 0.003708
+G_loss: 32.230164
+loss_pixel: 0.3122
+lr: 0.0002000
+trained_times:574.8719s
+now_bestlosspixel:0.3186
+
+[epoch: 88]
+D_loss: 0.010724
+G_loss: 31.979948
+loss_pixel: 0.3099
+lr: 0.0002000
+trained_times:528.6423s
+now_bestlosspixel:0.3122
+
+[epoch: 89]
+D_loss: 0.002898
+G_loss: 31.973835
+loss_pixel: 0.3101
+lr: 0.0002000
+trained_times:526.4666s
+now_bestlosspixel:0.3099
+
+[epoch: 90]
+D_loss: 0.004655
+G_loss: 31.389507
+loss_pixel: 0.3038
+lr: 0.0002000
+trained_times:476.4712s
+now_bestlosspixel:0.3099
+
+[epoch: 91]
+D_loss: 0.011732
+G_loss: 30.394205
+loss_pixel: 0.2939
+lr: 0.0002000
+trained_times:502.5470s
+now_bestlosspixel:0.3038
+
+[epoch: 92]
+D_loss: 0.005165
+G_loss: 29.966433
+loss_pixel: 0.2896
+lr: 0.0002000
+trained_times:514.9386s
+now_bestlosspixel:0.2939
+
+[epoch: 93]
+D_loss: 0.006337
+G_loss: 30.060350
+loss_pixel: 0.2902
+lr: 0.0002000
+trained_times:529.7094s
+now_bestlosspixel:0.2896
+
+[epoch: 94]
+D_loss: 0.002905
+G_loss: 29.932405
+loss_pixel: 0.2894
+lr: 0.0002000
+trained_times:522.7634s
+now_bestlosspixel:0.2896
+
+[epoch: 95]
+D_loss: 0.016584
+G_loss: 29.731665
+loss_pixel: 0.2866
+lr: 0.0002000
+trained_times:615.0266s
+now_bestlosspixel:0.2894
+
+[epoch: 96]
+D_loss: 0.010415
+G_loss: 29.401699
+loss_pixel: 0.2840
+lr: 0.0002000
+trained_times:551.5759s
+now_bestlosspixel:0.2866
+
+[epoch: 97]
+D_loss: 0.003922
+G_loss: 28.846170
+loss_pixel: 0.2780
+lr: 0.0002000
+trained_times:644.9965s
+now_bestlosspixel:0.2840
+
+[epoch: 98]
+D_loss: 0.011070
+G_loss: 23.745228
+loss_pixel: 0.2281
+lr: 0.0002000
+trained_times:643.0136s
+now_bestlosspixel:0.2780
+
+[epoch: 99]
+D_loss: 0.005967
+G_loss: 23.320702
+loss_pixel: 0.2235
+lr: 0.0002000
+trained_times:475.8825s
+now_bestlosspixel:0.2281
+
+[epoch: 100]
+D_loss: 0.003366
+G_loss: 22.084089
+loss_pixel: 0.2119
+lr: 0.0002000
+trained_times:402.1358s
+now_bestlosspixel:0.2235
+
+[epoch: 101]
+D_loss: 0.004934
+G_loss: 21.114403
+loss_pixel: 0.2017
+lr: 0.0002000
+trained_times:550.0311s
+now_bestlosspixel:0.2119
+
+[epoch: 102]
+D_loss: 0.004246
+G_loss: 20.143568
+loss_pixel: 0.1917
+lr: 0.0002000
+trained_times:544.3931s
+now_bestlosspixel:0.2017
+
+[epoch: 103]
+D_loss: 0.002192
+G_loss: 19.934532
+loss_pixel: 0.1893
+lr: 0.0002000
+trained_times:516.7430s
+now_bestlosspixel:0.1917
+
+[epoch: 104]
+D_loss: 0.003910
+G_loss: 20.163927
+loss_pixel: 0.1919
+lr: 0.0002000
+trained_times:511.3613s
+now_bestlosspixel:0.1893
+
+[epoch: 105]
+D_loss: 0.003688
+G_loss: 19.844675
+loss_pixel: 0.1885
+lr: 0.0002000
+trained_times:739.8843s
+now_bestlosspixel:0.1893
+
+[epoch: 106]
+D_loss: 0.012436
+G_loss: 18.630116
+loss_pixel: 0.1755
+lr: 0.0002000
+trained_times:685.4625s
+now_bestlosspixel:0.1885
+
+[epoch: 107]
+D_loss: 0.002471
+G_loss: 17.984720
+loss_pixel: 0.1703
+lr: 0.0002000
+trained_times:601.9681s
+now_bestlosspixel:0.1755
+
+[epoch: 108]
+D_loss: 0.002034
+G_loss: 17.244297
+loss_pixel: 0.1623
+lr: 0.0002000
+trained_times:636.7340s
+now_bestlosspixel:0.1703
+
+[epoch: 109]
+D_loss: 0.063552
+G_loss: 17.199329
+loss_pixel: 0.1613
+lr: 0.0002000
+trained_times:683.1291s
+now_bestlosspixel:0.1623
+
+[epoch: 110]
+D_loss: 0.001515
+G_loss: 17.009455
+loss_pixel: 0.1605
+lr: 0.0002000
+trained_times:680.1408s
+now_bestlosspixel:0.1613
+
+[epoch: 111]
+D_loss: 0.001724
+G_loss: 16.079451
+loss_pixel: 0.1513
+lr: 0.0002000
+trained_times:754.8937s
+now_bestlosspixel:0.1605
+
+[epoch: 112]
+D_loss: 0.002274
+G_loss: 16.056572
+loss_pixel: 0.1503
+lr: 0.0002000
+trained_times:691.1375s
+now_bestlosspixel:0.1513
+
+[epoch: 113]
+D_loss: 0.002482
+G_loss: 15.652357
+loss_pixel: 0.1457
+lr: 0.0002000
+trained_times:1360.8884s
+now_bestlosspixel:0.1503
+
+[epoch: 114]
+D_loss: 0.002610
+G_loss: 14.979661
+loss_pixel: 0.1402
+lr: 0.0002000
+trained_times:1226.2548s
+now_bestlosspixel:0.1457
+
+[epoch: 115]
+D_loss: 0.003678
+G_loss: 13.852479
+loss_pixel: 0.1288
+lr: 0.0002000
+trained_times:1066.4412s
+now_bestlosspixel:0.1402
+
+[epoch: 116]
+D_loss: 0.000974
+G_loss: 14.927914
+loss_pixel: 0.1393
+lr: 0.0002000
+trained_times:955.6971s
+now_bestlosspixel:0.1288
+
+[epoch: 117]
+D_loss: 0.003363
+G_loss: 13.191485
+loss_pixel: 0.1222
+lr: 0.0002000
+trained_times:1019.3342s
+now_bestlosspixel:0.1288
+
+[epoch: 118]
+D_loss: 0.001910
+G_loss: 13.413941
+loss_pixel: 0.1246
+lr: 0.0002000
+trained_times:1023.7751s
+now_bestlosspixel:0.1222
+
+[epoch: 119]
+D_loss: 0.016988
+G_loss: 13.233122
+loss_pixel: 0.1219
+lr: 0.0002000
+trained_times:824.7487s
+now_bestlosspixel:0.1222
+
+[epoch: 120]
+D_loss: 0.001224
+G_loss: 12.580594
+loss_pixel: 0.1158
+lr: 0.0002000
+trained_times:723.7586s
+now_bestlosspixel:0.1219
+
+[epoch: 121]
+D_loss: 0.006587
+G_loss: 12.153630
+loss_pixel: 0.1118
+lr: 0.0002000
+trained_times:749.1376s
+now_bestlosspixel:0.1158
+
+[epoch: 122]
+D_loss: 0.001402
+G_loss: 11.664224
+loss_pixel: 0.1067
+lr: 0.0002000
+trained_times:698.0606s
+now_bestlosspixel:0.1118
+
+[epoch: 123]
+D_loss: 0.001075
+G_loss: 12.336814
+loss_pixel: 0.1135
+lr: 0.0002000
+trained_times:473.2040s
+now_bestlosspixel:0.1067
+
+[epoch: 124]
+D_loss: 0.002917
+G_loss: 10.959303
+loss_pixel: 0.0996
+lr: 0.0002000
+trained_times:453.0661s
+now_bestlosspixel:0.1067
+
+[epoch: 125]
+D_loss: 0.003369
+G_loss: 10.748182
+loss_pixel: 0.0973
+lr: 0.0002000
+trained_times:535.1979s
+now_bestlosspixel:0.0996
+
+[epoch: 126]
+D_loss: 0.003540
+G_loss: 11.157421
+loss_pixel: 0.1019
+lr: 0.0002000
+trained_times:467.3922s
+now_bestlosspixel:0.0973
+
+[epoch: 127]
+D_loss: 0.000586
+G_loss: 9.948300
+loss_pixel: 0.0893
+lr: 0.0002000
+trained_times:499.5743s
+now_bestlosspixel:0.0973
+
+[epoch: 128]
+D_loss: 0.003410
+G_loss: 9.910742
+loss_pixel: 0.0888
+lr: 0.0002000
+trained_times:490.3068s
+now_bestlosspixel:0.0893
+
+[epoch: 129]
+D_loss: 0.004415
+G_loss: 9.963317
+loss_pixel: 0.0894
+lr: 0.0002000
+trained_times:512.3243s
+now_bestlosspixel:0.0888
+
+[epoch: 130]
+D_loss: 0.001835
+G_loss: 9.679234
+loss_pixel: 0.0870
+lr: 0.0002000
+trained_times:459.3140s
+now_bestlosspixel:0.0888
+
+[epoch: 131]
+D_loss: 0.001886
+G_loss: 10.350447
+loss_pixel: 0.0938
+lr: 0.0002000
+trained_times:494.6141s
+now_bestlosspixel:0.0870
+
+[epoch: 131]
+D_loss: 0.000312
+G_loss: 9.837515
+loss_pixel: 0.0884
+lr: 0.0000200
+trained_times:610.4944s
+now_bestlosspixel:1.0000
+
+[epoch: 132]
+D_loss: 0.000297
+G_loss: 9.093833
+loss_pixel: 0.0808
+lr: 0.0000200
+trained_times:569.9379s
+now_bestlosspixel:0.0884
+
+[epoch: 133]
+D_loss: 0.000279
+G_loss: 9.258061
+loss_pixel: 0.0826
+lr: 0.0000200
+trained_times:533.7996s
+now_bestlosspixel:0.0808
+
+[epoch: 134]
+D_loss: 0.000442
+G_loss: 9.099404
+loss_pixel: 0.0808
+lr: 0.0000200
+trained_times:516.9145s
+now_bestlosspixel:0.0808
+
+[epoch: 135]
+D_loss: 0.000584
+G_loss: 9.159191
+loss_pixel: 0.0817
+lr: 0.0000200
+trained_times:646.8105s
+now_bestlosspixel:0.0808
+
+[epoch: 136]
+D_loss: 0.000584
+G_loss: 8.998016
+loss_pixel: 0.0803
+lr: 0.0000200
+trained_times:613.2461s
+now_bestlosspixel:0.0808
+
+[epoch: 137]
+D_loss: 0.000342
+G_loss: 9.190746
+loss_pixel: 0.0818
+lr: 0.0000200
+trained_times:542.8466s
+now_bestlosspixel:0.0803
+
+[epoch: 138]
+D_loss: 0.000310
+G_loss: 9.506695
+loss_pixel: 0.0852
+lr: 0.0000200
+trained_times:529.8358s
+now_bestlosspixel:0.0803
+
+[epoch: 139]
+D_loss: 0.000401
+G_loss: 9.204392
+loss_pixel: 0.0820
+lr: 0.0000200
+trained_times:455.7859s
+now_bestlosspixel:0.0803
+
+[epoch: 140]
+D_loss: 0.000217
+G_loss: 9.618450
+loss_pixel: 0.0863
+lr: 0.0000200
+trained_times:419.6886s
+now_bestlosspixel:0.0803
+
+[epoch: 141]
+D_loss: 0.000198
+G_loss: 9.288039
+loss_pixel: 0.0829
+lr: 0.0000200
+trained_times:559.2500s
+now_bestlosspixel:0.0803
+
+[epoch: 142]
+D_loss: 0.000230
+G_loss: 8.399706
+loss_pixel: 0.0738
+lr: 0.0000200
+trained_times:559.8941s
+now_bestlosspixel:0.0803
+
+[epoch: 143]
+D_loss: 0.000717
+G_loss: 9.293863
+loss_pixel: 0.0830
+lr: 0.0000200
+trained_times:645.6491s
+now_bestlosspixel:0.0738
+
+[epoch: 144]
+D_loss: 0.000431
+G_loss: 8.762992
+loss_pixel: 0.0774
+lr: 0.0000200
+trained_times:639.6317s
+now_bestlosspixel:0.0738
+
+[epoch: 145]
+D_loss: 0.000282
+G_loss: 8.708961
+loss_pixel: 0.0769
+lr: 0.0000200
+trained_times:599.0754s
+now_bestlosspixel:0.0738
+
+[epoch: 146]
+D_loss: 0.000356
+G_loss: 8.846268
+loss_pixel: 0.0786
+lr: 0.0000200
+trained_times:550.8413s
+now_bestlosspixel:0.0738
+
+[epoch: 147]
+D_loss: 0.000563
+G_loss: 8.258429
+loss_pixel: 0.0724
+lr: 0.0000200
+trained_times:513.1184s
+now_bestlosspixel:0.0738
+
+[epoch: 148]
+D_loss: 0.000331
+G_loss: 9.158873
+loss_pixel: 0.0816
+lr: 0.0000200
+trained_times:502.0584s
+now_bestlosspixel:0.0724
+
+[epoch: 149]
+D_loss: 0.000224
+G_loss: 8.868282
+loss_pixel: 0.0786
+lr: 0.0000200
+trained_times:496.7235s
+now_bestlosspixel:0.0724
+
+[epoch: 150]
+D_loss: 0.000335
+G_loss: 8.560175
+loss_pixel: 0.0755
+lr: 0.0000200
+trained_times:485.2558s
+now_bestlosspixel:0.0724
+
+[epoch: 151]
+D_loss: 0.000270
+G_loss: 8.658381
+loss_pixel: 0.0765
+lr: 0.0000200
+trained_times:614.6767s
+now_bestlosspixel:0.0724
+
+[epoch: 152]
+D_loss: 0.000759
+G_loss: 8.815114
+loss_pixel: 0.0779
+lr: 0.0000200
+trained_times:633.3694s
+now_bestlosspixel:0.0724
+
+[epoch: 153]
+D_loss: 0.000320
+G_loss: 8.549905
+loss_pixel: 0.0755
+lr: 0.0000200
+trained_times:631.1691s
+now_bestlosspixel:0.0724
+
+[epoch: 154]
+D_loss: 0.000272
+G_loss: 8.338863
+loss_pixel: 0.0735
+lr: 0.0000200
+trained_times:599.8876s
+now_bestlosspixel:0.0724
+
+[epoch: 155]
+D_loss: 0.000253
+G_loss: 8.996665
+loss_pixel: 0.0800
+lr: 0.0000200
+trained_times:460.3894s
+now_bestlosspixel:0.0724
+
+[epoch: 156]
+D_loss: 0.000274
+G_loss: 9.239638
+loss_pixel: 0.0825
+lr: 0.0000200
+trained_times:444.0470s
+now_bestlosspixel:0.0724
+
+[epoch: 157]
+D_loss: 0.000207
+G_loss: 8.905587
+loss_pixel: 0.0792
+lr: 0.0000200
+trained_times:494.9289s
+now_bestlosspixel:0.0724
+
+[epoch: 158]
+D_loss: 0.000327
+G_loss: 8.041448
+loss_pixel: 0.0704
+lr: 0.0000200
+trained_times:423.4502s
+now_bestlosspixel:0.0724
+
+[epoch: 159]
+D_loss: 0.000246
+G_loss: 8.129013
+loss_pixel: 0.0714
+lr: 0.0000200
+trained_times:592.1978s
+now_bestlosspixel:0.0704
+
+[epoch: 160]
+D_loss: 0.000290
+G_loss: 8.553004
+loss_pixel: 0.0754
+lr: 0.0000200
+trained_times:584.2566s
+now_bestlosspixel:0.0704
+
+[epoch: 161]
+D_loss: 0.000277
+G_loss: 8.394618
+loss_pixel: 0.0741
+lr: 0.0000200
+trained_times:745.0020s
+now_bestlosspixel:0.0704
+
+[epoch: 162]
+D_loss: 0.000180
+G_loss: 8.507722
+loss_pixel: 0.0751
+lr: 0.0000200
+trained_times:698.0117s
+now_bestlosspixel:0.0704
+
+[epoch: 163]
+D_loss: 0.000339
+G_loss: 8.161371
+loss_pixel: 0.0717
+lr: 0.0000200
+trained_times:668.0359s
+now_bestlosspixel:0.0704
+
+[epoch: 164]
+D_loss: 0.000187
+G_loss: 8.216707
+loss_pixel: 0.0723
+lr: 0.0000200
+trained_times:658.7760s
+now_bestlosspixel:0.0704
+
+[epoch: 165]
+D_loss: 0.000210
+G_loss: 8.273535
+loss_pixel: 0.0726
+lr: 0.0000200
+trained_times:602.9693s
+now_bestlosspixel:0.0704
+
+[epoch: 166]
+D_loss: 0.000170
+G_loss: 7.995023
+loss_pixel: 0.0698
+lr: 0.0000200
+trained_times:570.3870s
+now_bestlosspixel:0.0704
+
+[epoch: 167]
+D_loss: 0.000161
+G_loss: 8.354268
+loss_pixel: 0.0735
+lr: 0.0000200
+trained_times:582.5800s
+now_bestlosspixel:0.0698
+
+[epoch: 168]
+D_loss: 0.000199
+G_loss: 8.385066
+loss_pixel: 0.0738
+lr: 0.0000200
+trained_times:575.0528s
+now_bestlosspixel:0.0698
+
+[epoch: 169]
+D_loss: 0.000205
+G_loss: 7.991591
+loss_pixel: 0.0701
+lr: 0.0000200
+trained_times:624.9365s
+now_bestlosspixel:0.0698
+
+[epoch: 170]
+D_loss: 0.000271
+G_loss: 7.973470
+loss_pixel: 0.0696
+lr: 0.0000200
+trained_times:675.7452s
+now_bestlosspixel:0.0698
+
+[epoch: 171]
+D_loss: 0.000367
+G_loss: 8.079937
+loss_pixel: 0.0711
+lr: 0.0000200
+trained_times:440.1666s
+now_bestlosspixel:0.0696
+
+[epoch: 172]
+D_loss: 0.000214
+G_loss: 8.175075
+loss_pixel: 0.0718
+lr: 0.0000200
+trained_times:427.3642s
+now_bestlosspixel:0.0696
+
+[epoch: 173]
+D_loss: 0.000186
+G_loss: 8.382854
+loss_pixel: 0.0739
+lr: 0.0000200
+trained_times:501.8915s
+now_bestlosspixel:0.0696
+
+[epoch: 174]
+D_loss: 0.000265
+G_loss: 8.336070
+loss_pixel: 0.0733
+lr: 0.0000200
+trained_times:568.4825s
+now_bestlosspixel:0.0696
+
+[epoch: 175]
+D_loss: 0.000250
+G_loss: 7.852779
+loss_pixel: 0.0684
+lr: 0.0000200
+trained_times:613.1604s
+now_bestlosspixel:0.0696
+
+[epoch: 176]
+D_loss: 0.000408
+G_loss: 8.017170
+loss_pixel: 0.0704
+lr: 0.0000200
+trained_times:652.9030s
+now_bestlosspixel:0.0684
+
+[epoch: 177]
+D_loss: 0.000176
+G_loss: 8.022935
+loss_pixel: 0.0702
+lr: 0.0000200
+trained_times:619.8573s
+now_bestlosspixel:0.0684
+
+[epoch: 178]
+D_loss: 0.000329
+G_loss: 7.893165
+loss_pixel: 0.0691
+lr: 0.0000200
+trained_times:564.1449s
+now_bestlosspixel:0.0684
+
+[epoch: 179]
+D_loss: 0.000438
+G_loss: 7.847589
+loss_pixel: 0.0684
+lr: 0.0000200
+trained_times:592.0674s
+now_bestlosspixel:0.0684
+
+[epoch: 180]
+D_loss: 0.000178
+G_loss: 7.795619
+loss_pixel: 0.0681
+lr: 0.0000200
+trained_times:576.5092s
+now_bestlosspixel:0.0684
+
+[epoch: 181]
+D_loss: 0.000275
+G_loss: 7.581210
+loss_pixel: 0.0658
+lr: 0.0000200
+trained_times:519.3678s
+now_bestlosspixel:0.0681
+
+[epoch: 182]
+D_loss: 0.000222
+G_loss: 8.582892
+loss_pixel: 0.0756
+lr: 0.0000200
+trained_times:505.9354s
+now_bestlosspixel:0.0658
+
+[epoch: 183]
+D_loss: 0.000194
+G_loss: 7.798771
+loss_pixel: 0.0680
+lr: 0.0000200
+trained_times:605.7497s
+now_bestlosspixel:0.0658
+
+[epoch: 184]
+D_loss: 0.000337
+G_loss: 7.788050
+loss_pixel: 0.0680
+lr: 0.0000200
+trained_times:592.9560s
+now_bestlosspixel:0.0658
+
+[epoch: 185]
+D_loss: 0.000145
+G_loss: 8.116571
+loss_pixel: 0.0711
+lr: 0.0000200
+trained_times:556.0126s
+now_bestlosspixel:0.0658
+
+[epoch: 186]
+D_loss: 0.000115
+G_loss: 8.045549
+loss_pixel: 0.0705
+lr: 0.0000200
+trained_times:532.7739s
+now_bestlosspixel:0.0658
+
+[epoch: 187]
+D_loss: 0.000240
+G_loss: 7.999372
+loss_pixel: 0.0700
+lr: 0.0000200
+trained_times:577.3439s
+now_bestlosspixel:0.0658
+
+[epoch: 188]
+D_loss: 0.000262
+G_loss: 7.924278
+loss_pixel: 0.0694
+lr: 0.0000200
+trained_times:552.4286s
+now_bestlosspixel:0.0658
+
+[epoch: 189]
+D_loss: 0.000200
+G_loss: 7.662355
+loss_pixel: 0.0665
+lr: 0.0000200
+trained_times:540.5681s
+now_bestlosspixel:0.0658
+
+[epoch: 190]
+D_loss: 0.000770
+G_loss: 8.249548
+loss_pixel: 0.0728
+lr: 0.0000200
+trained_times:546.9715s
+now_bestlosspixel:0.0658
+
+[epoch: 191]
+D_loss: 0.000133
+G_loss: 7.769231
+loss_pixel: 0.0678
+lr: 0.0000200
+trained_times:426.3113s
+now_bestlosspixel:0.0658
+
+[epoch: 192]
+D_loss: 0.000218
+G_loss: 7.876462
+loss_pixel: 0.0690
+lr: 0.0000200
+trained_times:416.4338s
+now_bestlosspixel:0.0658
+
+[epoch: 193]
+D_loss: 0.000145
+G_loss: 7.960956
+loss_pixel: 0.0696
+lr: 0.0000200
+trained_times:450.8237s
+now_bestlosspixel:0.0658
+
+[epoch: 194]
+D_loss: 0.000153
+G_loss: 7.385895
+loss_pixel: 0.0637
+lr: 0.0000200
+trained_times:423.2035s
+now_bestlosspixel:0.0658
+
+[epoch: 195]
+D_loss: 0.000275
+G_loss: 7.614010
+loss_pixel: 0.0661
+lr: 0.0000200
+trained_times:449.9396s
+now_bestlosspixel:0.0637
+
+[epoch: 196]
+D_loss: 0.000122
+G_loss: 8.305859
+loss_pixel: 0.0729
+lr: 0.0000200
+trained_times:445.3771s
+now_bestlosspixel:0.0637
+
+[epoch: 197]
+D_loss: 0.000205
+G_loss: 7.689011
+loss_pixel: 0.0669
+lr: 0.0000200
+trained_times:501.1805s
+now_bestlosspixel:0.0637
+
+[epoch: 198]
+D_loss: 0.000177
+G_loss: 7.329584
+loss_pixel: 0.0634
+lr: 0.0000200
+trained_times:505.1464s
+now_bestlosspixel:0.0637
+
+[epoch: 199]
+D_loss: 0.000219
+G_loss: 7.595127
+loss_pixel: 0.0659
+lr: 0.0000200
+trained_times:571.9539s
+now_bestlosspixel:0.0634
+
+[epoch: 200]
+D_loss: 0.000151
+G_loss: 8.068430
+loss_pixel: 0.0708
+lr: 0.0000200
+trained_times:576.7503s
+now_bestlosspixel:0.0634
+
+[epoch: 201]
+D_loss: 0.000352
+G_loss: 7.691603
+loss_pixel: 0.0670
+lr: 0.0000200
+trained_times:619.9579s
+now_bestlosspixel:0.0634
+
