@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from scipy.signal import bilinear
 from torchinfo import summary
-from utils.SPPF import *
+from localutils.SPPF import *
 from attention.ECA import *
 
 # 基本计算单元
@@ -90,11 +90,7 @@ class DSConv(nn.Module):
         return self.conv(x)
 
 
-if __name__ == '__main__':
-    x = torch.randn(1,32,64,64)
-    layer = DSVGGBlock_ECA(32,64,64)
-    y = layer(x)
-    print(y.shape)
+
 
 
 class SPPF_DSUNet(nn.Module):
@@ -111,6 +107,377 @@ class SPPF_DSUNet(nn.Module):
         self.conv2_0 = SPPF(nb_filter[1], nb_filter[2])
         self.conv3_0 = SPPF(nb_filter[2], nb_filter[3])
         self.conv4_0 = SPPF(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+class SPPF333_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF333(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF333(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF333(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF333(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+
+class SPPF777_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF777(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF777(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF777(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF777(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+
+class SPPF777_atten_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF777_atten(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF777_atten(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF777_atten(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF777_atten(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+class SPPF777_partatten_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF777(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF777(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF777_atten(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF777_atten(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+class SPPF999_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF999(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF999(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF999(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF999(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+
+class SPPF11_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF11(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF11(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF11(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF11(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+
+class SPPF357_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF357(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF357(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF357(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF357(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+
+class SPPF579_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF579(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF579(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF579(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF579(nb_filter[3], nb_filter[4])
+
+        self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
+        self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])
+        self.conv1_3 = DSVGGBlock(nb_filter[1]+nb_filter[2], nb_filter[1], nb_filter[1])
+        self.conv0_4 = DSVGGBlock(nb_filter[0]+nb_filter[1], nb_filter[0], nb_filter[0])
+
+        self.final = nn.Conv2d(nb_filter[0], num_classes, kernel_size=1)
+
+
+
+
+    def forward(self, input):
+        x0_0 = self.conv0_0(input)
+        x1_0 = self.conv1_0(self.pool(x0_0))
+        x2_0 = self.conv2_0(self.pool(x1_0))
+        x3_0 = self.conv3_0(self.pool(x2_0))
+        x4_0 = self.conv4_0(self.pool(x3_0))
+
+        x3_1 = self.conv3_1(torch.cat([x3_0, self.up(x4_0)], 1))
+        x2_2 = self.conv2_2(torch.cat([x2_0, self.up(x3_1)], 1))
+        x1_3 = self.conv1_3(torch.cat([x1_0, self.up(x2_2)], 1))
+        x0_4 = self.conv0_4(torch.cat([x0_0, self.up(x1_3)], 1))
+
+        output = self.final(x0_4)
+        return output
+
+if __name__ == '__main__':
+    x = torch.randn(1,3,256,256)
+    layer = SPPF357_DSUNet(3,3)
+    y = layer(x)
+    print(y.shape)
+
+class SPPF_avg_DSUNet(nn.Module):
+    def __init__(self, num_classes, input_channels=3, **kwargs):
+        super().__init__()
+
+        nb_filter = [32, 64, 128, 256, 512]
+
+        self.pool = nn.MaxPool2d(2, 2)
+        self.up = nn.Upsample(scale_factor=2, mode='bilinear', align_corners=True)#scale_factor:放大的倍数  插值
+
+        self.conv0_0 = VGGBlock(input_channels, nb_filter[0], nb_filter[0])
+        self.conv1_0 = SPPF_avg(nb_filter[0], nb_filter[1])
+        self.conv2_0 = SPPF_avg(nb_filter[1], nb_filter[2])
+        self.conv3_0 = SPPF_avg(nb_filter[2], nb_filter[3])
+        self.conv4_0 = SPPF_avg(nb_filter[3], nb_filter[4])
 
         self.conv3_1 = DSVGGBlock(nb_filter[3]+nb_filter[4], nb_filter[3], nb_filter[3])
         self.conv2_2 = DSVGGBlock(nb_filter[2]+nb_filter[3], nb_filter[2], nb_filter[2])

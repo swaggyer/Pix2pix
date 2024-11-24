@@ -3,7 +3,7 @@ from typing import Dict
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.AFAM_Better import *
+from Utils.AFAM_Better import *
 
 class DoubleConv_down(nn.Sequential):
     def __init__(self, in_channels, out_channels):

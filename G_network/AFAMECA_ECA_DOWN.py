@@ -1,8 +1,8 @@
 
-from utils.AFAM import *
-from utils.AFAM_Better import AFAM_Module_ECA
-from utils.CACB import *
-from utils.SPPCSPC import *
+from Utils.AFAM import *
+from Utils.AFAM_Better import AFAM_Module_ECA
+from Utils.CACB import *
+from Utils.SPPCSPC import *
 from attention.ECA import *
 class _ConvBNReLU(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, **kwargs):

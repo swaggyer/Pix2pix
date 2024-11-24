@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from utils.Transformer import *
+from Utils.Transformer import *
 
 class _ConvBNReLU(nn.Module):
     def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0, **kwargs):
